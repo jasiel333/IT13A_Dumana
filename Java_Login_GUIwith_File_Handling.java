@@ -46,7 +46,7 @@ import java.io.IOException;
 
                 boolean found = false;
 
-                try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\paul\\"))) {
+                try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\jasiel\\"))) {
                     String line;
                     while ((line = reader.readLine()) != null) {
                         String[] parts = line.split(",");
